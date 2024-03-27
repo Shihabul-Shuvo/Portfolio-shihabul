@@ -358,6 +358,17 @@ import { URLs } from './user-data/urls.js';
       }
     });
   }
+
+  //Open a new tab and show the resume pdf
+  document.addEventListener('DOMContentLoaded', function() {
+    const viewResumeButton = document.getElementById('view-resume-button');
+    
+    viewResumeButton.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        const resumeURL = viewResumeButton.getAttribute('href');
+        window.open(resumeURL, '_blank'); 
+    });
+});
   
   /**
    * Creates a new element with specified tag name and class name.
