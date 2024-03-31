@@ -1,8 +1,7 @@
 export const bio = [
     "This is MD Shihabul Islam Shovo.",
 
-    'I’m an enthusiastic Computer Science and Engineering graduate with a solid foundation in algorithms, data structures, and object-oriented programming principles. Experienced in computer graphics programming, with a strong understanding of rendering techniques and graphics libraries such as WebGL. I’m excited to apply my skills to working on impactful projects.',
-    
+    'I’m an enthusiastic Computer Science and Engineering graduate with a solid foundation in algorithms, data structures, and software development. Striving for a dynamic and challenging role where I can utilize my technical skills and knowledge to working on impactful projects and add value to the organization."
     "Thanks for taking the time to learn a little about me!"
 ];
 
@@ -78,8 +77,8 @@ export const education = [
     {
         title: "B.Sc. in Computer Science and Engineering",
         duration: "2019 - 2024",
-        subtitle: "Ahsamullah University of Science and Technology, Tejgaon, Dhaka",
-        details: ["CGPA: 3.131 out of 4"],
+        subtitle: "Ahsanullah University of Science and Technology, Tejgaon, Dhaka",
+        details: ["CGPA: 3.13 out of 4"],
         tags: [
             "Data Structures & Algorithms",
             "Operating Systems",
