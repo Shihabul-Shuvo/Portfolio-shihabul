@@ -1,7 +1,7 @@
 export const bio = [
     "This is MD Shihabul Islam Shovo.",
 
-    "I’m an enthusiastic Computer Science and Engineering graduate with a solid foundation in algorithms, data structures, and software development. Striving for a dynamic and challenging role where I can utilize my technical skills and knowledge to working on impactful projects and add value to the organization."
+    "I’m an enthusiastic Computer Science and Engineering graduate with a solid foundation in algorithms, data structures, and software development. Striving for a dynamic and challenging role where I can utilize my technical skills and knowledge to working on impactful projects and add value to the organization.",
     "Thanks for taking the time to learn a little about me!"
 ];
 
