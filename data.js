@@ -26,6 +26,10 @@ export const skills = [
         title: "IDE",
         skillName: "VS Code, NetBeans IDE, Codeblocks",
     },
+    {
+        title: "Soft skills",
+        skillName: "Time management, Pressure handling, Problem solving",
+    },
 ];
 
 export const projects = {
@@ -63,7 +67,7 @@ export const projects = {
             summary:
                 "A desktop software to report accidents. Developed in Java using javaSwing for UI and MSSQL database. Jquery was used to connect to MSSQL",
             preview: "https://github.com/Shihabul-Shuvo/Accident-Reports",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+            techStack: ["JavaSwing", "MSSQL"],
             github: "https://github.com/Shihabul-Shuvo/Accident-Reports",
         },
     ],
@@ -94,7 +98,7 @@ export const education = [
         title: "Higher Secondary Certificate (HSC)",
         duration: "2016 - 2018",
         subtitle: "Cantonment Public School and College, Saidpur, Nilphamari",
-        details: ["GPA: 5 out of 5"],
+        details: ["GPA: 5.00 out of 5"],
         tags:[],
         icon: "book",
     },
@@ -102,7 +106,7 @@ export const education = [
         title: "Secondary School Certificate (SSC)",
         duration: "2014 - 2016",
         subtitle: "Cantonment Public School and College, Saidpur, Nilphamari",
-        details: ["GPA: 5 out of 5"],
+        details: ["GPA: 5.00 out of 5"],
         tags:[],
         icon: "book",
     },
@@ -118,7 +122,7 @@ export const footer = [
             },
             {
                 text: "LeetCode",
-                link: "",
+                link: "https://leetcode.com/breakBoy75/",
             },
         ],
     },
@@ -140,7 +144,7 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
+                link: "https://www.linkedin.com/in/shihabul-islam-shovo/",
             },
             {
                 text: "Facebook",
