@@ -24,32 +24,32 @@ import { URLs } from './user-data/urls.js';
    * @returns {void}
    */
   
-  async function fetchBlogsFromMedium(url) {
-    try {
-      const response = await fetch(url);
-      const { items } = await response.json();
-      populateBlogs(items, "blogs");
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from Medium profile: ${error}`
-      );
-    }
-  }
+  // async function fetchBlogsFromMedium(url) {
+  //   try {
+  //     const response = await fetch(url);
+  //     const { items } = await response.json();
+  //     populateBlogs(items, "blogs");
+  //   } catch (error) {
+  //     throw new Error(
+  //       `Error in fetching the blogs from Medium profile: ${error}`
+  //     );
+  //   }
+  // }
 
 
-  async function fetchGitConnectedData(url) {
-    try {
-      const response = await fetch(url);
-      console.log(response);
-      const { basics } = await response.json();
-      // populateBlogs(items, "blogs");
-      mapBasicResponse(basics);
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from git connected: ${error}`
-      );
-    }
-  }
+  // async function fetchGitConnectedData(url) {
+  //   try {
+  //     const response = await fetch(url);
+  //     console.log(response);
+  //     const { basics } = await response.json();
+  //     populateBlogs(items, "blogs");
+  //     mapBasicResponse(basics);
+  //   } catch (error) {
+  //     throw new Error(
+  //       `Error in fetching the blogs from git connected: ${error}`
+  //     );
+  //   }
+  // }
 
   function mapBasicResponse(basics) {
     const {
@@ -346,16 +346,16 @@ import { URLs } from './user-data/urls.js';
         footer.append(span);
       }
   
-      if (item.label === "copyright-text") {
-        let div = document.createElement("div");
-        div.className = "copyright-text no-print";
-        item.data.forEach(function (copyright) {
-          let p = document.createElement("p");
-          p.innerHTML = copyright;
-          div.append(p);
-        });
-        footer.append(div);
-      }
+      // if (item.label === "copyright-text") {
+      //   let div = document.createElement("div");
+      //   div.className = "copyright-text no-print";
+      //   item.data.forEach(function (copyright) {
+      //     let p = document.createElement("p");
+      //     p.innerHTML = copyright;
+      //     div.append(p);
+      //   });
+      //   footer.append(div);
+      // }
     });
   }
 
@@ -388,8 +388,8 @@ import { URLs } from './user-data/urls.js';
   
   populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
+  //fetchBlogsFromMedium(medium);
+  // fetchGitConnectedData(gitConnected);
   
   populateProjects(graphicsDesignProjects, "graphics-design-projects");
   populateProjects(webProjects, "web-projects");

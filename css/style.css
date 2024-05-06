@@ -711,7 +711,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card {
-	height: 150px;
+	height: fit-content;
 }
 
 .project-info {
@@ -2094,7 +2094,7 @@ ul {
 	transition: all 0.25s ease;
 }
 .submenu .link p {
-    /* Your styles here */
+    /* Other styles here */
     margin-bottom: 0px;
 	display: inline-block;
     /* Add any other styles as needed */
